@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+
+section#conteudo{
+	width: 850px;
+	margin: auto;
+}
+
+iframe#frame-spec{
+	width: 425px;
+	height: 280px;
+	border: none;
+	overflow: hidden;
+}
+
+iframe#frame-spec::-webkit-Scrollbar {
+	display: none;
+}
+
+.left{
+	text-align:	left;
+}
+
+aside#left { 
+	display:block;
+	width:385px;
+	float:left;
+	background-color: #ffffff;
+	padding:10px;
+	color: #000000;
+}
+aside#left h2{
+	background-color: #ffffff;
+	font-size: 14pt;
+	color: #000000;
+	padding:5px;
+}

@@ -1,0 +1,319 @@
+@charset "UTF-8";
+
+
+
+
+
+ul#album-fotos{
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#album-fotos li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid #ffffff;
+	background-color:#ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+}
+
+ul#album-fotos li span{
+	opacity: 0;
+	color:#ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album-fotos li:hover span {
+	opacity: 1;
+}
+
+ul#album-fotos li:hover { 
+    -webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li#alface {
+	background: url('../_imagens/alface.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface:hover {
+	background-position: 0px 0px;
+	background-size:200px 200px;
+}
+
+
+ul#album-fotos li#alface2 {
+	background: url('../_imagens/alface2.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface2:hover {
+	background-position: 0px 0px;
+	background-size:200px 200px;
+}
+
+ul#album-fotos li#alface3 {
+	background: url('../_imagens/alface3.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 500px 500px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface3:hover {
+	background-position: 0px 0px;
+	background-size:200px 200px;
+}
+
+ul#album-fotos li#alface4 {
+	background: url('../_imagens/alface4.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 500px 500px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface4:hover {
+	background-position: 0px 0px;
+	background-size:200px 200px;
+}
+
+ul#album-fotos li#alface5 {
+	background: url('../_imagens/alface5.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 500px 500px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface5:hover {
+	background-position: 0px 0px;
+	background-size:200px 200px;
+}
+
+ul#album-fotos li#alface6 {
+	background: url('../_imagens/alface6.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface6:hover {
+	background-position: 0px 0px;
+	background-size:200px 200px;
+}
+
+ul#album-fotos li#alface7 {
+	background: url('../_imagens/alface7.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface7:hover {
+	background-position: 0px 0px;
+	background-size:200px 200px;
+}
+
+ul#album-fotos li#alface8 {
+	background: url('../_imagens/alface8.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface8:hover {
+	background-position: 0px 0px;
+	background-size:200px 200px;
+}
+
+ul#album-fotos li#alface9 {
+	background: url('../_imagens/alface9.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface9:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface10 {
+	background: url('../_imagens/alface10.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface10:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface11 {
+	background: url('../_imagens/alface11.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface11:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface12 {
+	background: url('../_imagens/alface12.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface12:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface13 {
+	background: url('../_imagens/alface13.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface13:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface14 {
+	background: url('../_imagens/alface14.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface14:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface15 {
+	background: url('../_imagens/alface15.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface15:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface16 {
+	background: url('../_imagens/alface16.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface16:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface17 {
+	background: url('../_imagens/alface17.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface17:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface18 {
+	background: url('../_imagens/alface18.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface18:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface19 {
+	background: url('../_imagens/alface19.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface19:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface20 {
+	background: url('../_imagens/alface20.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface20:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface21 {
+	background: url('../_imagens/alface21.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface21:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface22 {
+	background: url('../_imagens/alface22.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface22:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#alface22 {
+	background: url('../_imagens/alface22.png') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#alface22:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
